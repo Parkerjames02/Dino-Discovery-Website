@@ -1,0 +1,58 @@
+/*This is where I format the title of the document, "Dino Discovery"*/
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 37pt;
+    text-align: justify;
+    padding: 15px 0;
+    margin-left: 50px;
+    background: linear-gradient(to right, #371DB3, #245ED7, #4C82F2);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+/*This is where I format the background of the title*/
+.title-background {
+    width: 97%;
+    height: 90px;
+    border-radius: 30px;
+    background: linear-gradient(125deg, #d5e5fa, #f2f2f7, #f7dfec);
+    margin-left: 25px;
+}
+
+/* This is where I format the paragraph tags in the HTML document */
+p {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+/* This is where I am able to style the form of the login page*/
+form {
+    text-align: center;
+}
+
+/*This is where I format the list of options that appear at the top of the screen*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background: linear-gradient(to right, #7902FF, #1120FF, #1E71FF);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}

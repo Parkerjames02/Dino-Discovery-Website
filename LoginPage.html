@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!-- This is the beggining of the html tag. The default language is set to English here. -->
+<html lang="en">
+<!-- The head is used to specify metadata for the html file -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Changed the title of the webpage to Login Page -->
+    <title>Login Page</title>
+    <!-- This is what I use to link my html document to the "LoginPage.css" file -->
+    <link rel="stylesheet" href="LoginPage.css">
+    <!-- This is what I use to link my code for the login functions from the "LoginPage.js files"-->
+    <script src="LoginPage.js"></script>
+    <!-- This is what adds the icon to the tab at the top of the browser-->
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/128/2206/2206634.png">
+</head>
+<!-- Everything within the body is what the visiter of the site sees -->
+
+<body>
+    <!-- The ul tag defines an unordered list -->
+    <ul>
+        <!-- The li tage defines a list item -->
+        <li><a href="./HomeScreen.html">Go Back</a></li>
+    </ul>
+    <!-- The header element is a special container for introductory content -->
+    <header class="title-background">
+        <!-- This is the first header of the document. It is used for the title. -->
+        <h1>
+            Dino Discovery Login Page
+        </h1>
+    </header>
+    <!-- The br tag is a line break for html documents -->
+    <br>
+    <!-- The p tag defines a paragraph for a html document-->
+    <p id="loginStatus">Status of login</p>
+    <!-- The br tag is a line break for html documents -->
+    <br>
+    <form id="creditSubmit" onsubmit="return false">
+        Username: <input type="text" id="uName" /> <br>
+        <!-- The br tag is a line break for html documents -->
+        <br>
+        Password: <input type="text" id="pWord" /> <br>
+        <!-- The br tag is a line break for html documents -->
+        <br>
+        <input type="submit" onclick="Login();">
+    </form>
+</body>
+
+</html>

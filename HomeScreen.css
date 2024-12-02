@@ -1,0 +1,89 @@
+/*This is where I format the title of the document, "Dino Discovery"*/
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 37pt;
+    text-align: justify;
+    padding: 15px 0;
+    margin-left: 50px;
+    background: linear-gradient(to right, #7902FF, #BB21E9, #A467ED);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+/*This is where I format the different time period titles*/
+h2 {
+    color: white;
+    font-size: 25pt;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+/*This is where I format the different time period descriptions*/
+h3 {
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+/*This is where I format the background of the title*/
+.title-background {
+    width: 97%;
+    height: 90px;
+    border-radius: 30px;
+    background: linear-gradient(125deg, #d5e5fa, #f2f2f7, #f7dfec);
+    margin-left: 25px;
+}
+
+/*This is where I format the triassic period button*/
+.triButton {
+    width: 475px;
+    height: 550px;
+    background-color: orange;
+    border-radius: 12px;
+    border-color: orange;
+    margin: 70px;
+}
+
+/*This is where I format the jurassic period button*/
+.jurButton {
+    width: 475px;
+    height: 550px;
+    background-color: red;
+    border-radius: 12px;
+    border-color: red;
+    margin: 70px;
+}
+
+/*This is where I format the cretaceous period button*/
+.creButton {
+    width: 475px;
+    height: 550px;
+    background-color: green;
+    border-radius: 12px;
+    border-color: green;
+    margin: 70px;
+}
+
+/*This is where I format the list of options that appear at the top of the screen*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background: linear-gradient(to right, #7902FF, #1120FF, #1E71FF);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}

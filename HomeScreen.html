@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!-- This is the beggining of the html tag. The default language is set to English here. -->
+<html lang="en">
+<!-- The head is used to specify metadata for the html file -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Changed the title of the webpage to Dino Discovery -->
+    <title>Dino Discovery</title>
+    <!-- This is what I use to link my html document to the "HomeScreen.css" file -->
+    <link rel="stylesheet" href="HomeScreen.css">
+    <!-- This is what I use to link my code for the login functions from the "code.js files"-->
+    <script src="code.js"></script>
+    <!-- This is what adds the icon to the tab at the top of the browser-->
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/128/2206/2206634.png">
+</head>
+<!-- Everything within the body is what the visiter of the site sees -->
+
+<body>
+    <!-- The ul tag defines an unordered list -->
+    <ul>
+        <!-- The li tage defines a list item -->
+        <li><a href="./LoginPage.html">Login</a></li>
+        <li><a href="./AboutPage.html">About The Site</a></li>
+    </ul>
+    <!-- The header element is a special container for introductory content -->
+    <header class="title-background">
+        <!-- This is the first header of the document. It is used for the title. -->
+        <h1>
+            Dino Discovery Homepage
+        </h1>
+    </header>
+    <!-- The main tag specifies the main content of the document -->
+    <main>
+        <!-- The center tag centers everything within its opening tag and closing tag -->
+        <center>
+            <!-- This "triButton" is the first button of the html document -->
+            <!-- When pressed it will call a function named "goTriassic" -->
+            <button class="triButton" onclick="goTriassic();">
+                <!-- The img tag allows picture files to appear on html documents -->
+                <img src="https://static.wikia.nocookie.net/jurassicworld-evolution/images/4/42/Coelophysis_JWE2_Profile.png/revision/latest?cb=20220602225325"
+                    alt="Coelophysis PNG" width="350" height="350" />
+                <!-- The br tag is a line break for html documents -->
+                <br>
+                <!-- h2 is the second header of the html document. It is smaller than h1 -->
+                <h2 class="timePeriod">Triassic Period</h2>
+                <!-- h3 is the third header of the html document. It is smaller that both h1 and h2 -->
+                <h3 class="timeDescription">(237 million to 201 million years ago)</h3>
+            </button>
+            <!-- This "jurButton" is the second button of the html document -->
+            <!-- When pressed it will call a function named "goJurassic" -->
+            <button class="jurButton" onclick="goJurassic();">
+                <!-- The img tag allows picture files to appear on html documents -->
+                <img src="https://static.wikia.nocookie.net/jurassicworld-evolution/images/1/1b/Stegosaurus_JWE2_Profile.png/revision/latest?cb=20220613214856"
+                    alt="Stegosaurus PNG" width="350" height="350" />
+                <!-- The br tag is a line break for html documents -->
+                <br>
+                <!-- h2 is the second header of the html document. It is smaller than h1 -->
+                <h2 class="timePeriod">Jurassic Period</h2>
+                <!-- h3 is the third header of the html document. It is smaller that both h1 and h2 -->
+                <h3 class="timeDescription">(199 million to 145 million years ago)</h3>
+            </button>
+            <!-- This "creButton" is the third button of the html document -->
+            <!-- When pressed it will call a function named "goCretaceous" -->
+            <button class="creButton" onclick="goCretaceous();">
+                <!-- The img tag allows picture files to appear on html documents -->
+                <img src="https://static.wikia.nocookie.net/jurassicworld-evolution/images/f/fc/Rexthumb.png/revision/latest?cb=20190817153609"
+                    alt="Tyrannosaurus Rex PNG" width="350" height="350" />
+                <!-- The br tag is a line break for html documents -->
+                <br>
+                <!-- h2 is the second header of the html document. It is smaller than h1 -->
+                <h2 class="timePeriod">Cretaceous Period</h2>
+                <!-- h3 is the third header of the html document. It is smaller that both h1 and h2 -->
+                <h3 class="timeDescription">(145 million to 66 million years ago)</h3>
+            </button>
+            <!-- The footer tag defines a footer for a document or section-->
+            <footer>
+                <!-- The p tag defines a paragraph for a html document-->
+                <p>Author: Parker Haynie<br>
+                    <!-- The a tag defines a hyperlink, which is used to link from one page to another -->
+                    <a href="fakeemail@gmail.com">fakeemail@gmail.com</a>
+                </p>
+            </footer>
+        </center>
+    </main>
+
+</body>
+
+</html>

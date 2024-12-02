@@ -1,0 +1,80 @@
+/*This is where I format the title of the document, "Dino Discovery"*/
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 37pt;
+    text-align: justify;
+    padding: 15px 0;
+    margin-left: 50px;
+    background: linear-gradient(to right, #FF17EC, #FF1778, #F25194);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+/* This is where I format the paragraph tags in the HTML document */
+P {
+    font-size: 20px;
+}
+
+/*This is where I format the background of the title*/
+.title-background {
+    width: 97%;
+    height: 90px;
+    border-radius: 30px;
+    background: linear-gradient(125deg, #d5e5fa, #f2f2f7, #f7dfec);
+    margin-left: 25px;
+}
+
+/*This is where I format the list of options that appear at the top of the screen*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background: linear-gradient(to right, #7902FF, #1120FF, #1E71FF);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+/*This is where I format the container for the grid of dinos*/
+.container {
+    display: grid;
+    grid-template-columns: 700px 700px;
+    grid-gap: 55px;
+    font-family: 'Lato';
+    text-align: center;
+    margin-top: 75px;
+    margin-left: 230px;
+}
+
+/*This is where I format the padding and border of each item*/
+.item {
+    padding: 5px;
+    font-size: 1.3em;
+    border: 3px solid magenta;
+}
+
+/*This is the first item. All of the other items are listed after this item going all the way to "b"*/
+.a {
+    background: white;
+    order: 1;
+}
+
+.b {
+    background: white;
+    order: 2;
+}
